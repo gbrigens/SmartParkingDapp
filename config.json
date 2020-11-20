@@ -1,0 +1,100 @@
+{
+  "network": {
+    "name": "SmartParking",
+    "verbosity": 5,
+    "consensus": "istanbul",
+    "quorumVersion": "2.7.0",
+    "transactionManager": "0.10.5",
+    "permissioned": true,
+    "genesisFile": "none",
+    "generateKeys": false,
+    "configDir": "network/SmartParking/resources",
+    "deployment": "bash",
+    "cakeshop": "none",
+    "splunk": false,
+    "networkId": "10",
+    "customizePorts": false,
+    "cakeshopPort": "8999",
+    "remoteDebug": false,
+    "splunkIp": "127.0.0.1",
+    "splunkPort": "8000"
+  },
+  "nodes": [
+    {
+      "quorum": {
+        "ip": "127.0.0.1",
+        "devP2pPort": 21000,
+        "rpcPort": 22000,
+        "wsPort": 23000,
+        "raftPort": 50401,
+        "graphQlPort": 24000
+      },
+      "tm": {
+        "ip": "127.0.0.1",
+        "thirdPartyPort": 9081,
+        "p2pPort": 9001
+      }
+    },
+    {
+      "quorum": {
+        "ip": "127.0.0.1",
+        "devP2pPort": 21001,
+        "rpcPort": 22001,
+        "wsPort": 23001,
+        "raftPort": 50402,
+        "graphQlPort": 24001
+      },
+      "tm": {
+        "ip": "127.0.0.1",
+        "thirdPartyPort": 9082,
+        "p2pPort": 9002
+      }
+    },
+    {
+      "quorum": {
+        "ip": "127.0.0.1",
+        "devP2pPort": 21002,
+        "rpcPort": 22002,
+        "wsPort": 23002,
+        "raftPort": 50403,
+        "graphQlPort": 24002
+      },
+      "tm": {
+        "ip": "127.0.0.1",
+        "thirdPartyPort": 9083,
+        "p2pPort": 9003
+      }
+    },
+    {
+      "quorum": {
+        "ip": "127.0.0.1",
+        "devP2pPort": 21003,
+        "rpcPort": 22003,
+        "wsPort": 23003,
+        "raftPort": 50404,
+        "graphQlPort": 24003
+      },
+      "tm": {
+        "ip": "127.0.0.1",
+        "thirdPartyPort": 9084,
+        "p2pPort": 9004
+      }
+    },
+    {
+      "quorum": {
+        "ip": "127.0.0.1",
+        "devP2pPort": 21004,
+        "rpcPort": 22004,
+        "wsPort": 23004,
+        "raftPort": 50405,
+        "graphQlPort": 24004
+      },
+      "tm": {
+        "ip": "127.0.0.1",
+        "thirdPartyPort": 9085,
+        "p2pPort": 9005
+      }
+    }
+  ],
+  "containerPorts": {}
+}
